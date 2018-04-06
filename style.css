@@ -12,5 +12,7 @@ footer{
 .featurette{
   padding-top: 35px;
   padding-bottom: 25px;
-  
+}
+#phone{
+  text-decoration: none;
 }
