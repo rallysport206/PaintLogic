@@ -1,7 +1,11 @@
+footer{
+  text-align: center;
+}
+
 #copyright{
   margin-top: 16px;
 }
 
-footer{
+.services{
   text-align: center;
 }
