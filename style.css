@@ -5,31 +5,31 @@
 }
 
 /*feature*/
-.featurette{
+.featurette {
   padding-top: 35px;
   padding-bottom: 25px;
 }
 
 /*services*/
-.services{
+.services {
   text-align: center;
 }
 .guaranteed{
   color: blue;
 }
 /*footer*/
-footer{
+footer {
   text-align: center;
 }
 
-#copyright{
+#copyright {
   margin-top: 16px;
 }
-#links{
+#links {
   /*text-decoration: none;*/
   color: #343a40
 }
-#created{
+#created {
   /*text-decoration: none;*/
   /*color: #343a40*/
 }
