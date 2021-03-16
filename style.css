@@ -14,22 +14,34 @@
 .services {
   text-align: center;
 }
-.guaranteed{
+.guaranteed {
   color: blue;
 }
+.contact__container {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+@media only screen (max-width: 600px) {
+  .contact__buttons {
+    padding: 10px;
+  }
+}
+
 /*footer*/
 footer {
-  text-align: center;
+  text-align: left;
 }
 
 #copyright {
   margin-top: 16px;
+  text-align: center;
 }
 #links {
   /*text-decoration: none;*/
   color: #343a40
 }
-#created {
-  /*text-decoration: none;*/
-  /*color: #343a40*/
+
+#fa {
+  font-size: 50px;
 }
