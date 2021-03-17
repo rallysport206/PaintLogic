@@ -30,7 +30,11 @@
 
 /*footer*/
 footer {
-  text-align: left;
+  text-align: center;
+}
+
+.fa {
+  margin-right: 2px;
 }
 
 #copyright {
@@ -43,5 +47,5 @@ footer {
 }
 
 #fa {
-  font-size: 50px;
+  font-size: 1.2em;
 }
