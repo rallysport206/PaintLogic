@@ -91,7 +91,7 @@
         <div class="col-md-7">
           <h2 class="featurette-heading">Offering premium quality paint restoration in the Seattle area for <span class="text-muted">over 15 years!</span></h2>
           <p class="lead">Providing paint and auto body repairs at a lower cost than a body shop with the same high quality and attention to detail. Services include: paint repair from door dings, bumper scuffs, rock chip/road debris removal, curbed wheel repair, insurance claims, and more!</p>
-          <h4 class="guaranteed">Guaranteed Quick Service – Free Estimates – Most Repairs Take One Day!</h4>
+          <h4 class="guaranteed">Guaranteed Quick Service – Most Repairs Take One Day! - Call for estimate!</h4>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-fluid mx-auto" src="images/feature3.png" alt="Feature image">
@@ -115,7 +115,7 @@
             <h5 class="my-0 font-weight-normal">Rock Chip Repair</h5>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$400</h1>
+            <h2 class="card-title pricing-card-title"><small class="text-muted">Requires on-site estimate</small></h2>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Repair and filling of paint chips and the removal of minor scratches. Full car with external detail</li>
             </ul>
@@ -127,7 +127,7 @@
             <h5 class="my-0 font-weight-normal">Bumper Repair</h5>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$500<small class="text-muted"> and up</small></h1>
+            <h2 class="card-title pricing-card-title"><small class="text-muted">Requires on-site estimate</small></h2>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Repair and repaint bumper like new! Includes primer, wet sand, custom industry color match and layers of clear coat </li>
             </ul>
@@ -139,7 +139,7 @@
             <h5 class="my-0 font-weight-normal">Wheel Repair and Repaint</h5>
           </div>
           <div class="card-body">
-            <h2 class="card-title pricing-card-title">$150 <small class="text-muted">and up</small></h2>
+            <h2 class="card-title pricing-card-title"><small class="text-muted">Requires on-site estimate</small></h2>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Repair and resurface wheel from damage due to: curbed wheels, dings, and other marks from road debris</li>
             </ul>
@@ -242,7 +242,7 @@
         </div>
       </div>
       <div class="col-12 col-md">
-        <small class="d-block mb-3 text-muted" id="copyright">&copy; 2011 Paint Logic, Inc | All Rights Reserved | Created by <a id="created" href="http://www.phantony.net">Tony Phan</a></small>
+        <small class="d-block mb-3 text-muted" id="copyright">&copy; <span id="spanYear"></span> Paint Logic, Inc | All Rights Reserved | Created by <a id="created" href="http://www.phantony.net">Tony Phan</a></small>
       </div>
     </footer>
   </section>
@@ -257,6 +257,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/1aa0058edd.js"></script>
+    <script>
+      $('#spanYear').html(new Date().getFullYear());
+    </script>
     <script>
     </script>
   </body>
